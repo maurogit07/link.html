@@ -1,0 +1,44 @@
+body {
+	background: silver;
+}
+ a {
+ 	color: red;
+ 	font-weight: bold;
+
+ }
+ a:hover {
+ 	color: black;
+ 	background: red;
+ }
+.caixa {
+	background: pink;
+	width: 200px;
+	height:100px;
+}
+.caixa:hover {
+	background: orange;
+	border:2px dotted blue;
+}
+	
+a:visited {
+	color: blue;
+}
+a:active {
+	font-size: 150%;
+	border:3px solid gray;
+}
+.campo {
+	margin-top: 50px;
+}
+.campo:hover {
+	background: blue;
+	color: black;
+	margin-left: 100px;
+
+}
+.campo:focus {
+	background: black;
+	color: white;
+}
+
+
